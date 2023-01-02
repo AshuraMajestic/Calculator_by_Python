@@ -17,7 +17,7 @@ def evalute():
     global num
     result=str(eval(num))
     label1['text']=result
-    num=''
+    num=result
 
 num=''
 frame1=Frame(k)
